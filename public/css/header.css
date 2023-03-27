@@ -1,3 +1,8 @@
+header .logo-gabriel {
+    display: block;
+    padding: 20px;
+}
+
 header nav ul {
     padding: 0;
     text-align: center;
@@ -13,11 +18,23 @@ header nav ul li:not(:last-child) {
 
 
 .menu li a {
-    color: white;
+    color: #2F4F4F;
     text-decoration: none;
 }
 
 .menu li a:hover {
-    color: #3bd42d;
+    color: #5F9EA0;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 992px) {
+    header {
+        position: relative;
+    }
+
+    .menu {
+        position: absolute;
+        right: 2%;
+        top: 18%;
+    }
 }

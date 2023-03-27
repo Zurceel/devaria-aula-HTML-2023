@@ -8,9 +8,13 @@ footer {
 }
 
 footer section span:first-child {
-    color: #5e49ff;
+    color: #2F4F4F;
 }
 
 footer section span a {
-    color: #3dd42d;
+    color: #2F4F4F;
+}
+
+footer section span a:hover {
+    color: #5F9EA0;
 }
